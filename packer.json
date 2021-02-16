@@ -11,8 +11,6 @@
       "vpc_id": "vpc-01099d5507cb76e87",
       "subnet_id": "subnet-0c3bdf7491341ebae"
     },
-
-    },
     "_comment1" : "packer build -var \"aws_secret_key=foo\" template.json",
     "_comment2" : "packer build -var-file creds.json template.json",
     "builders": [{
